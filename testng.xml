@@ -4,7 +4,7 @@
 
        <!-- <parameter name = "browser" value ="chrome" />-->
         <classes>
-            <class name = "utility.Sql_Connection"/>
+            <class name = ""/>
         </classes>
     </test>
 </suite>

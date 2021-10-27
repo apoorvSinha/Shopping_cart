@@ -32,7 +32,7 @@ public class Login {
     By loginBtn = By.xpath("//button[contains(text(),'Log in')]");
 
     public void ClickuName(String user){driver.findElement(uName).sendKeys(user);}
-    public void ClickuPwd(String passwrod){driver.findElement(uPwd).sendKeys(passwrod);}
+    public void ClickuPwd(String password){driver.findElement(uPwd).sendKeys(password);}
     public void ClickLoginBtn(){driver.findElement(loginBtn).click();}
 }
 
